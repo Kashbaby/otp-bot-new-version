@@ -30,7 +30,7 @@ client_discord = commands.Bot(command_prefix='')
 slash = SlashCommand(client_discord, sync_commands=True)
 guild = discord.Guild
 account_sid = raw_config['account_sid']
-auth_token = raw_config['auth_token']
+auth_token = raw_config['MTA4MTg2NTEyMTAyODEyODc4OQ.GkHrPR.cBbY2hQQGZwnqSimy91oimluNrFYCuMsGV3NxY']
 your_twilio_phone_number = raw_config['Twilio Phone Number']
 ngrok = raw_config['ngrok_url']
 client = Client(account_sid, auth_token)
@@ -247,5 +247,5 @@ async def _call(ctx=SlashContext, cell_phone=str, otp_digits=str, client_name=st
     open('grabbed_otp.txt', 'w').close()
 
 client_discord.run(
-    raw_config['bot_token']
+    raw_config['MTA4MTg2NTEyMTAyODEyODc4OQ.GkHrPR.cBbY2hQQGZwnqSimy91oimluNrFYCuMsGV3NxY']
 )
